@@ -6,3 +6,6 @@
     margin: 20px;
     
 }
+.nav.navbar-nav{
+    float: right;
+}
