@@ -25,7 +25,7 @@
                 echo "<td>".$row['Publisher']."</td>";
                 echo "<td>".$row['Genre']."</td>";
                 echo "<td>".$row['Price']."</td>";
-                echo "<td> <a href='./delete.php?id=".$row['id']."'><button class='btn btn-danger'>Delete</button></a> <a href='./edit.php?id=".$row['id']."'> <button class='btn btn-success'>Update</button></a></td></tr>";
+                echo "<td> <a href='./delete.php?id=".$row['id']."'><button class='btn btn-danger'>Delete</button></a> <a href='./edit.php?id=".$row['id']."'> <button class='btn btn-success'>Edit</button></a></td></tr>";
             }
             echo "</table>";
             
