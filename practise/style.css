@@ -1,0 +1,57 @@
+.container{
+    background-color: rgb(8, 37, 30);
+    height: 100px;
+}
+h1{
+    color: white;
+    
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    
+}
+ul li a{
+    color: white;
+    margin: 20px;
+}
+.active a, a:hover{
+    background-color: white;
+    color: rgb(7, 41, 7);
+   
+}
+.active{
+    background-color: white;
+    padding: 5px;
+    color: green;
+}
+.container1{
+    background-color: green;
+    height: 200px;
+    padding-top: 5%;
+
+}
+h2{
+    text-align:center
+}
+p{
+    text-align: center;
+    text-size-adjust: auto;
+}
+.click{
+    color: white;
+    background-color: rgb(1, 22, 26);
+    padding: 5px;
+    border-radius: 1px;
+    display: block;
+    margin: auto;
+}
+.image{
+    height: 5px;
+    width: 5px;
+    float: left;
+    background-size: auto;
+   
+}
